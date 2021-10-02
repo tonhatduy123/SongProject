@@ -6,7 +6,16 @@ namespace SONG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            else//
+            {
+                foreach (Song song in songs)
+                {
+                    if (song.TypeList == typeList)
+                    {
+                        Console.WriteLine(song.Name);
+                    }
+                }
+            }
         }
     }
 }
